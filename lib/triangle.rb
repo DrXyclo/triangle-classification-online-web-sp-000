@@ -18,11 +18,6 @@ class Triangle
   end  
     
   class TriangleError < StandardError
-    
-  #  def message
-  #  "Error 404: No triangle found!"
-  #  end
-    
   end 
   
 #  def kind(side1, side2, side3)
