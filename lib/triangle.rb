@@ -8,8 +8,8 @@ class Triangle
     end
   end
   
-  def kind(side1, side2, side3)
+#  def kind(side1, side2, side3)
 
-  end
+#  end
 
 end
