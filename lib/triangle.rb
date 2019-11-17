@@ -9,15 +9,15 @@ class Triangle
     elsif side1 != side2 && side2 != side3 && side1 != side3
       self.kind = :scalene
     end
-    
+  end  
     
   class TriangleError < StandardError
     
     def message
     "Error 404: No triangle found!"
     end
+    
   end 
-  end
   
 #  def kind(side1, side2, side3)
 
