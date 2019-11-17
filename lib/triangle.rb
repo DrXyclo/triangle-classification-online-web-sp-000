@@ -8,7 +8,9 @@ class Triangle
       raise TriangleError
     elsif side1 < 0 || side2 < 0 || side3 < 0
       raise TriangleError
-    elsif 
+    elsif #the sum of any two sides is less than or equal to the remaining side 
+          side1 + side2 <= side3 || side1 + side3 <= side2 || side2 + side3 <= side1
+      raise TriangleError
     elsif side1 == side2 && side2 == side3
       self.kind = :equilateral
     elsif side1 == side2 || side2 == side3 || side1 == side3
