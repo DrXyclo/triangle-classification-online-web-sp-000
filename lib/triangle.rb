@@ -5,7 +5,7 @@ class Triangle
     
   end
   
-  def kind
+  def kind(side1:, side2:, side3:)
     if side1 == side2 && side2 == side3
       triangle.kind = "equilateral"
     else
