@@ -3,7 +3,7 @@ class Triangle
 
   def initialize(side1, side2, side3)
         if side1 == side2 && side2 == side3
-      self.kind = "equilateral"
+      self.kind = :equilateral
     else
     end
   end
