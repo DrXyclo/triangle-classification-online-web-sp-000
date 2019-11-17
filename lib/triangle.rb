@@ -15,9 +15,9 @@ class Triangle
     
   class TriangleError < StandardError
     
-    def message
-    "Error 404: No triangle found!"
-    end
+  #  def message
+  #  "Error 404: No triangle found!"
+  #  end
     
   end 
   
