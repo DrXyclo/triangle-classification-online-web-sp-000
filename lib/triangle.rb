@@ -11,10 +11,10 @@ class Triangle
     end
     
     
-  class PartnerError < StandardError
+  class TriangleError < StandardError
     
     def message
-    "you must give the get_married method an argument of an instance of the person class!"
+    "Error 404: No triangle found!"
     end
   end 
   end
